@@ -1,0 +1,97 @@
+
+
+#logo {
+   height: 10vh;
+}
+
+#logoImage {
+  height: 100%;
+}
+
+.container {
+  margin: 5% 10% 5% 10%;
+}
+.row  {
+  display: flex;
+}
+.rowWrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#aboutMe {
+  flex-grow: 1;
+  text-align: right;
+  color: #2d3c49;
+  font-family: Verdana, Genevs;
+}
+
+#myName {
+  font-size: 30px;
+  margin: 0;
+}
+
+#myTitle {
+  font-size: 16px;
+}
+
+.divider {
+  height:4px;
+  background:#7d97ad;
+  margin: 20px 0 20px 0;
+}
+
+.bigImage {
+  width: 100%;
+}
+
+
+.bottomImage img {
+  width: 100%;
+}
+
+#subtitle {
+  font-size: 40px;
+  margin: 20px;
+  color: #7d97ad;
+  font-family: sans-serif;
+}
+
+.section {
+  margin: 10px 0 10px 0;
+}
+
+.imageCaption, .url {
+  text-align: center;
+}
+
+.imageCaption {
+  font-size: 40px;
+  margin-top: 10px;
+  font-family: sans-serif;
+  color: #2d3c49;
+}
+
+a {
+  font-size:26px;
+  text-decoration: none;
+  color: #2d3c49;
+
+}
+@media screen and (min-width: 1000px) {
+
+  .bottomImage {
+    margin-right: 10px;
+    width: calc((100% - 20px) / 3);
+  }
+  .bottomImage:last-of-type {
+    margin-right: 0;
+  }
+  #myName {
+  font-size: 70px;
+  margin: 0;
+  }
+  #myTitle {
+  font-size: 30px;
+  }
+}
